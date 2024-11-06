@@ -1,0 +1,13 @@
+BESCOM1 : SCADA/DMS Project :  Legacy : ACS Prism 
+
+1. The list of inputs provided by BESCOM Team 
+
+   a. MASTERCFG : contains the list of stations presently their in bescom system
+   b. STSR : Remote input files for all the station
+   c. STSD : Diagnostic input files for status which can be used for RTU point 
+   d. STSP : Pseudo files basically to link to GIS DB from SCADA/DMS
+   e. STSC : CALC files (Not used presently ) 
+   f. TLMR(P,D) : Telemetry files 
+   g. DNPNET(Port,device,control point): For RTU,CHANNEL,CHANNEL_GROUP ,RTU_CONTROL etc)
+   h. SCF :scale factor info 
+   i. STP : which includes states information 
