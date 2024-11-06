@@ -1,0 +1,16 @@
+BESCOM1 : SCADA/DMS Project :  Legacy : ACS Prism 
+
+Implementation : 
+
+1. ICCP Files received from Customer which includes the implemenation of objects 
+   a. VVC_INFO 
+   b. ICCP_IMPORT_POINT
+   c. ICCP_IMPORT_DS
+2. Substation points are included around 117 station for substation 
+   a. STSR,CTL
+   b. TLMR    
+3.In all LR type stations SF6 GAS PRESSEURE SHOULD BE NORMAL/LOW
+4.In all LR type stations, OVER CURRENT RELAY, EARTH FAULT RELAY and SEF Relay States should be NORMAL/OPERATED
+5.In all type of statations for For OD1,OD2 , SWITCH states should be Invalid, Open, Close and Faulty
+6.In LBS type of stations, Battery charger voltage state should be changed as Normal/Failed
+7.In LBS type of stations, Fault Passage signal state table should be mapped as NORMAL/INDICATION
